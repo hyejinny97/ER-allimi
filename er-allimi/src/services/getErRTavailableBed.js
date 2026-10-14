@@ -11,6 +11,7 @@ const getErRTavailableBed = async ({ STAGE1, STAGE2 }) => {
         STAGE1,
         STAGE2,
         numOfRows: 522,
+        _type: 'json',
       },
     });
     return response.data.response.body.items?.item || [];

@@ -11,6 +11,7 @@ const getErList = async function () {
       params: {
         serviceKey,
         numOfRows: 522,
+        _type: 'json',
       },
     });
 
