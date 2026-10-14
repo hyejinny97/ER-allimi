@@ -15,6 +15,7 @@ const getErMsg = async ({ HPID }: GetErMsgProps) => {
         serviceKey,
         HPID,
         numOfRows: 100,
+        _type: 'json',
       },
     });
 

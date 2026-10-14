@@ -13,6 +13,7 @@ const getSrIllAccept = async function ({ STAGE1, STAGE2 }) {
         STAGE1,
         STAGE2,
         numOfRows: 500,
+        _type: 'json',
       },
     });
 
